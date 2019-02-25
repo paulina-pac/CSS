@@ -1,0 +1,62 @@
+* {
+  /* margin: 0; */
+  /* padding: 3px; */
+  /* box-sizing: border-box; */
+}
+
+
+/* Global Styles 
+----------------------------------------------------------------- */
+
+/*  COLORS TO CONSIDER
+
+#E8E8EE
+#CACFE2
+#D7D4E5
+#8E9FBB
+#475069 */
+
+
+body {
+}
+  
+a {
+    color: burlywood
+  }
+
+a:hover {
+  text-decoration: none;
+}
+
+header p {
+  color: #aacdad;
+}
+
+header h1, header h2 {
+  color: #DAFFED
+}
+
+/* Header and Footer
+----------------------------------------------------------------- */
+header, footer {
+  background: #475069;
+  color: white;
+}
+
+
+
+/* Work Experience
+----------------------------------------------------------------- */
+
+.work-experience {
+  background:#E8E8EE;
+}
+
+
+
+/* Education
+----------------------------------------------------------------- */
+
+.education {
+  background:#CACFE2;
+}
