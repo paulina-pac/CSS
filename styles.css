@@ -1,8 +1,11 @@
-* {
-  /* margin: 0; */
-  /* padding: 3px; */
-  /* box-sizing: border-box; */
-}
+/* @import url('https://fonts.googleapis.com/css?family=Raleway'); */
+
+
+/* * {
+  margin: 0;
+  padding: 3px;
+  box-sizing: border-box;
+} */
 
 
 /* Global Styles 
@@ -18,8 +21,16 @@
 
 
 body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  line-height: 0.9;
 }
-  
+h1, h2 {
+
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+}  
 a {
     color: burlywood
   }
