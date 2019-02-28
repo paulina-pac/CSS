@@ -1,0 +1,189 @@
+/* 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+a {
+  color: burlywood;
+}
+
+h1,
+h2 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+header,
+footer {
+  background: #475069;
+  color: white;
+}
+
+header h1,
+header h2 {
+  color: #EDF2F4;
+  margin: 0;
+}
+
+header {
+text-align: center;
+}
+
+.img {
+
+  border-radius: 50%;
+
+}
+
+header p {
+
+  color: burlywood;
+}
+
+
+.work-experience {
+  background: #e8e8ee;
+}
+
+
+
+.education {
+  padding: 0.5rem;
+  background: #cacfe2;
+}
+
+.contact-info a {
+
+  padding: 10px;
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+} */
+
+
+
+/* Global styles 
+------------------------------------*/
+/* border box fix */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+a {
+  color: #ef233c;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 800;
+}
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 35px;
+  margin-top: 0;
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.column-narrow {
+  width: 35%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+.column-wide {
+  width: 62%;
+  float: left;
+  min-height: 175px;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header,
+footer {
+  background: #2b2d42;
+  color: #8d99ae;
+}
+header h1,
+header h2 {
+  color: #edf2f4;
+  margin: 0;
+}
+
+/* Header styles only */
+header {
+  /*text-align: center;*/
+}
+.img {
+  /*width: 300px;*/
+  border-radius: 50%;
+  /*float: left;*/
+  /*margin-right: 30px;*/
+}
+
+/* Footer styles only */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+  background: #edf2f4;
+}
+
+/* Education
+------------------------------------*/
+.education {
+  background: #8d99ae;
+}
+
