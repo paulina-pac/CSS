@@ -1,0 +1,30 @@
+html {
+box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+div {
+  background-color: cornflowerblue;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin: 30px;
+  border: 2px solid cornflowerblue;
+	background-color: #fdfbf2;
+	padding: 10px;
+}
